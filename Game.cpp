@@ -111,10 +111,10 @@ void Game::draw()
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 	//Investigate Here!!!!!
-	glLoadIdentity();
-	glRotatef(rotationAngle, 0.0f, 0.0f, 1.0f);
-	glTranslatef(1.0f, 0.0f, 0.0f);
-	glScalef(1.0f, 1.0f, 1.0f);	
+	//glLoadIdentity();
+	//glRotatef(rotationAngle, 0.0f, 0.0f, 1.0f);
+	//glTranslatef(1.0f, 0.0f, 0.0f);
+	glScalef(1.0009f, 1.0f, 1.0f);	
 
 	cout << "Drawing Primative " << current << endl;
 	glCallList(current);
